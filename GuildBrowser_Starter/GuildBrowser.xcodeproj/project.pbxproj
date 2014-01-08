@@ -12,6 +12,9 @@
 		650D28CB187C42D7002295C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		650D28D1187C42D7002295C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 650D28CF187C42D7002295C0 /* InfoPlist.strings */; };
 		650D28D4187C42D7002295C0 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 650D28D3187C42D7002295C0 /* Test1.m */; };
+		65C4F779187D240D00D41AC6 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4F778187D240D00D41AC6 /* Test1.m */; };
+		65C4F77A187D240D00D41AC6 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4F778187D240D00D41AC6 /* Test1.m */; };
+		65C4F77B187D240D00D41AC6 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C4F778187D240D00D41AC6 /* Test1.m */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -84,6 +87,8 @@
 		650D28D2187C42D7002295C0 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
 		650D28D3187C42D7002295C0 /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		650D28D5187C42D7002295C0 /* Test1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test1-Prefix.pch"; sourceTree = "<group>"; };
+		65C4F777187D240D00D41AC6 /* Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		65C4F778187D240D00D41AC6 /* Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -374,6 +379,8 @@
 				CB9FDD1F15E9B34900B3713E /* Guild.m */,
 				CB9FDD2215E9B34900B3713E /* Item.h */,
 				CB9FDD2315E9B34900B3713E /* Item.m */,
+				65C4F777187D240D00D41AC6 /* Test1.h */,
+				65C4F778187D240D00D41AC6 /* Test1.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -572,6 +579,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				650D28D4187C42D7002295C0 /* Test1.m in Sources */,
+				65C4F77B187D240D00D41AC6 /* Test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +590,7 @@
 				CB9FDC4C15E9872D00B3713E /* main.m in Sources */,
 				CB9FDC5015E9872D00B3713E /* AppDelegate.m in Sources */,
 				CB9FDCD715E9A8DA00B3713E /* AFHTTPClient.m in Sources */,
+				65C4F779187D240D00D41AC6 /* Test1.m in Sources */,
 				CB9FDCD815E9A8DA00B3713E /* AFHTTPRequestOperation.m in Sources */,
 				CB9FDCD915E9A8DA00B3713E /* AFImageRequestOperation.m in Sources */,
 				CB9FDCDA15E9A8DA00B3713E /* AFJSONRequestOperation.m in Sources */,
@@ -610,6 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9FDC6B15E9872E00B3713E /* GuildBrowserTests.m in Sources */,
+				65C4F77A187D240D00D41AC6 /* Test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,6 +825,7 @@
 				650D28D7187C42D7002295C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */ = {
 			isa = XCConfigurationList;
