@@ -3,7 +3,7 @@
 #import "UIImageView+AFNetworking.h"
 #import "WoWApiClient.h"
 #import "WowItemView.h"
-#import "Item.h"
+#import "Item.h"  //
 
 @interface CharacterDetailViewController ()
 @end
